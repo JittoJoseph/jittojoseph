@@ -95,8 +95,7 @@ a{
 }
 
 .profile:hover{
-    width: 19%;
-    height: 19%;
+    opacity: 60%;
 }
 
 /* media queres */
