@@ -15,6 +15,11 @@ body{
 
 } */
 
+body { 
+	background-image: url('images/forest.png'); 
+	background-repeat: no-repeat;
+	}
+
 h2,.white{
     color: rgb(255, 230, 0);
 }
