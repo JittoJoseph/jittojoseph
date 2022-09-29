@@ -5,7 +5,6 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
-/*
 body{
     margin: 0;
     padding: 0;
@@ -13,7 +12,7 @@ body{
    background-color: #101214;
     color: #7A7C80;
 
-} */
+}
 
 h2,.white{
     color: rgb(255, 230, 0);
