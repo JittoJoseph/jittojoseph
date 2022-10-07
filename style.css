@@ -1,17 +1,30 @@
 /* global */
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=ROBOTO');
 
 .grid-2{
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
-body{
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
-   background-color: #101214;
-    color: #7A7C80;
 
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 13s ease infinite;
+    font-family: "ROBOTO";
+	
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+		}
+	50% {
+		background-position: 100% 50%;
+		}
+	100% {
+		background-position: 0% 50%;
+		}
+	
 }
 
 h2,.white{
