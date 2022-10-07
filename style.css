@@ -10,7 +10,7 @@ body {
 	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
 	animation: gradient 13s ease infinite;
-    font-family: "ROBOTO";
+    	font-family: "ROBOTO";
 	
 }
 
@@ -104,7 +104,8 @@ a{
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
-    border: 2px;
+    border-style: solid;
+    border-width: 5px;
 }
 
 .profile:hover{
