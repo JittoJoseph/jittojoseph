@@ -28,11 +28,11 @@ body {
 }
 
 h2,.white{
-    color: rgb(255, 230, 0);
+    color: rgb(255, 230, 255);
 }
 
 a{
-    color: #a9acb3;
+    color: white;
     text-decoration: none;
 }
 /* section 1 */
