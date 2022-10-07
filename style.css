@@ -106,6 +106,7 @@ a{
     border-radius: 50%;
     border-style: solid;
     border-width: 5px;
+    border-color: white;
 }
 
 .profile:hover{
