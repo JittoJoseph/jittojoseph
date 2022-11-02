@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@800&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.background {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(to right top, #12c2e9, #c471ed, #f64f59);
+	z-index: 2;
+}
+
+main {
+	display: grid;
+    place-items: center;
+    height: 100%;
+}
+
+.glass {
+	height: 75%;
+	width: 60%;
+	z-index: 4;
+	background: rgba(255, 255, 255, 0.4);
+	border-top: 1px solid rgba(255, 255, 255, 0.6);
+	border-left: 1px solid rgba(255, 255, 255, 0.5);
+	border-right: 1px solid rgba(255, 255, 255, 0.3);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	border-radius: 12px;
+	box-shadow: 0 26px 42px rgba(0, 0, 0, 0.1);
+	font-family: 'Montserrat', sans-serif;
+	backdrop-filter: blur(2px);
+	display: grid;
+	place-items: center;
+	color: white;
+	font-size: 70px;
+	
+	
+}
+
+.circle {
+	z-index: 3;
+	position: absolute;
+	height: 150px;
+	width: 150px;
+	background: black;
+	border-radius: 50%;
+	
+}
+
+.circle1 {
+	background: #12c2e9;
+	right: 176px;
+	top: 180px;
+	animation: circle1 10s ease-in-out alternate infinite;
+}
+
+@keyframes circle1 {
+  100% {
+    top: 60px;
+  }
+}
+
+.circle2 {
+	background: #f64f59;
+	bottom: 180px;
+	left: 190px;
+	animation: circle2 10s ease-in-out alternate infinite;
+}
+
+@keyframes circle2 {
+  100% {
+    bottom: 60px;
+  }
+}
+
+h1 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 60px;
+	color: white;
+	letter-spacing: 2px;
+	margin-top: 0;
+}
+
+input, button {
+  font-size: 16px;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 20px auto;
+  padding: 12px 20px;
+  border: none;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 13px 21px rgba(0, 0, 0, 0.05);
+}
+
+input:focus {
+  outline: none;
+}
+
+input::placeholder {
+  color: white;
+}
+
+button {
+  cursor: pointer;
+  background: #f64f59;
+  color: white;
+  transition: 0.5s;
+}
+
+button:hover {
+  background: #12c2e9;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
