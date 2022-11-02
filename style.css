@@ -7,32 +7,17 @@
 }
 
 body {
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
-	animation: gradient 13s ease infinite;
+	background: black;
     	font-family: "ROBOTO";
 	
 }
 
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-		}
-	50% {
-		background-position: 100% 50%;
-		}
-	100% {
-		background-position: 0% 50%;
-		}
-	
-}
-
 h2,.white{
-    color: rgb(255, 230, 255);
+    color: yellow;
 }
 
 a{
-    color: white;
+    color: yellow;
     text-decoration: none;
 }
 /* section 1 */
@@ -106,7 +91,7 @@ a{
     border-radius: 50%;
     border-style: solid;
     border-width: 5px;
-    border-color: white;
+    border-color: yellow;
 }
 
 .profile:hover{
