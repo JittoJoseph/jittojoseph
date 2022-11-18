@@ -32,7 +32,7 @@ main {
 	border-radius: 12px;
 	box-shadow: 0 26px 42px rgba(0, 0, 0, 0.1);
 	font-family: 'Montserrat', sans-serif;
-	backdrop-filter: blur(2px);
+	backdrop-filter: blur(8px);
 	display: grid;
 	place-items: center;
 	color: white;
