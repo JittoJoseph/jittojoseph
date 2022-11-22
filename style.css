@@ -112,13 +112,13 @@ input::placeholder {
 
 button {
   cursor: pointer;
-  background: #022e59;
+  background: #05386B;
   color: white;
   transition: 0.5s;
 }
 
 button:hover {
-  background: #05386B;
+  background: #379683;
 }
 
 a {
