@@ -10,7 +10,7 @@
 	position: absolute;
 	height: 100%;
 	width: 100%;
-	background: #05386B;
+	background-color: #4fd18a;
 	z-index: 2;
 }
 /*linear-gradient(to right top, #12c2e9, #c471ed, #f64f59);
@@ -109,11 +109,10 @@ input:focus {
 input::placeholder {
   color: white;
 }
-#f64f59
 
 button {
   cursor: pointer;
-  background: #05386B;
+  background: #022e59;
   color: white;
   transition: 0.5s;
 }
