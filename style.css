@@ -109,10 +109,11 @@ input:focus {
 input::placeholder {
   color: white;
 }
+#f64f59
 
 button {
   cursor: pointer;
-  background: #f64f59;
+  background: #05386B;
   color: white;
   transition: 0.5s;
 }
