@@ -19,9 +19,9 @@
 #f64f59
 */
 main {
-	display: grid;
-    place-items: center;
-    height: 100%;
+   	display: grid;
+   	place-items: center;
+    	height: 100%;
 }
 
 .glass {
@@ -39,7 +39,7 @@ main {
 	backdrop-filter: blur(5px);
 	display: grid;
 	place-items: center;
-
+	color: white;
 	font-size: 70px;
 	
 	
@@ -50,7 +50,7 @@ main {
 	position: absolute;
 	height: 150px;
 	width: 150px;
-	background: black;
+	background: white;
 	border-radius: 50%;
 	
 }
