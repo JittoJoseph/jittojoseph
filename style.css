@@ -23,6 +23,10 @@ main {
    	place-items: center;
     	height: 100%;
 }
+img {
+	border: 1px solid white;
+	border-radius: 50%;
+}
 
 .glass {
 	height: 75%;
