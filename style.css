@@ -62,7 +62,7 @@ img {
 }
 
 .circle1 {
-	background: #379683;
+	background-color: #379683;
 	right: 176px;
 	top: 180px;
 	animation: circle1 10s ease-in-out alternate infinite;
@@ -75,7 +75,7 @@ img {
 }
 
 .circle2 {
-	background: #379683;
+	background-color: #379683;
 	bottom: 180px;
 	left: 190px;
 	animation: circle2 10s ease-in-out alternate infinite;
