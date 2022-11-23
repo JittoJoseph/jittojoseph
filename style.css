@@ -26,10 +26,12 @@ main {
 img {
 	border: 1px solid white;
 	border-radius: 50%;
+	max-width: 16%;
+	margin-top: 3%;
 }
 
 .glass {
-	height: 75%;
+	height: 78%;
 	width: 60%;
 	z-index: 4;
 	background: rgba(255, 255, 255, 0.4);
@@ -91,6 +93,7 @@ h1 {
 	letter-spacing: 2px;
 	margin-top: 0;
 	color: white;
+	-webkit-text-stroke: 1px #379683;
 }
 
 input, button {
