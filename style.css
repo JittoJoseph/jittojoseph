@@ -62,7 +62,7 @@ img {
 }
 
 .circle1 {
-	background-color: #379683;
+	background: #379683;
 	right: 176px;
 	top: 180px;
 	animation: circle1 10s ease-in-out alternate infinite;
@@ -75,7 +75,7 @@ img {
 }
 
 .circle2 {
-	background-color: #379683;
+	background: #379683;
 	bottom: 180px;
 	left: 190px;
 	animation: circle2 10s ease-in-out alternate infinite;
@@ -104,7 +104,7 @@ input, button {
   margin: 20px auto;
   padding: 12px 20px;
   border: none;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.1);
   border-radius: 12px;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   box-shadow: 0 13px 21px rgba(0, 0, 0, 0.05);
@@ -123,6 +123,7 @@ a {
   font-size: 16px;
 }
 
+/* 11 */
 button {
   border: none;
   background: #05386B;
@@ -162,3 +163,4 @@ button:active{
     81% { -webkit-transform: scale(4) rotate(45deg); opacity: 1; }
     100% { -webkit-transform: scale(50) rotate(45deg); opacity: 0; }
 }
+
