@@ -26,7 +26,7 @@ var x = setInterval(function() {
 	`;
 */
 	document.getElementById("countdown").innerHTML = `
-    Heading the 4385th Day<br> <br>
+    Heading the Last Day in School<br> <br>
 		<span>${days}</span> :
 		<span>${hours}</span> :
 		<span>${minutes}</span> :
