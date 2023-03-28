@@ -1,0 +1,46 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	background-color: #121212;
+	color: #ffffff;
+	font-family: Arial, sans-serif;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	padding: 1rem;
+	box-sizing: border-box;
+}
+
+.gallery {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	overflow-y: auto; /* make the container scrollable vertically */
+	max-height: calc(100% - 2rem); /* set the max height to the viewport height minus some padding */
+}
+
+.gallery img {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 1rem;
+}
+
+#countdown {
+	font-family: Rubik;
+	font-size: 3rem;
+	text-align: center;
+	position: absolute;
+	width: 100%;
+	top: 30%;
+	z-index: 3;
+}
+
+#mainimage {
+	filter: brightness(75%)
+}
