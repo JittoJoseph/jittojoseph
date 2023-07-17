@@ -64,7 +64,7 @@ ul li a:hover:before {
 }
 
 ul li:nth-child(1) a:before{
-  background: #3b5999;
+  background: #E1306C;
 }
 
 ul li:nth-child(2) a:before{
