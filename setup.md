@@ -1,4 +1,4 @@
-# Setting up Microsoft Rewards Bot
+
 ## Installing Python
 Firstly install the latest version of [Python](https://www.python.org/downloads/). Make sure to download the specified version for your operating system. 
 ## Installing the Bot
