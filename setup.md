@@ -1,8 +1,7 @@
 
 ## Installing Python
 Firstly install the latest version of [Python](https://www.python.org/downloads/). Make sure to download the specified version for your operating system. 
-## Installing the Bot
-To download the bot go to [@farshadz1997's github page](https://github.com/farshadz1997/Microsoft-Rewards-bot), click the green **code** button, and then click **Download ZIP**. Once it is installed onto your machine, extract the .zip file and move it to a memorable place such as **Documents**.
+
 ## Installing Chrome
 If you already have Google Chrome installed, skip this step. Otherwise download the latest version of [Google Chrome](https://www.google.com/intl/en_au/chrome/thank-you.html?statcb=0&installdataindex=empty&defaultbrowser=0).
 ## Initalizing the bot
