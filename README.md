@@ -1,2 +1,2 @@
 
-go to my Blog [Jitto Tech](https://www.jittotech.com/)
+visit my Blog [Jitto Tech](https://www.jittotech.com/)
